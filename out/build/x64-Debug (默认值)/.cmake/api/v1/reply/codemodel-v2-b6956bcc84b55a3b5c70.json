@@ -1,0 +1,226 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "DebugUtils",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "DebugUtils",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Detour",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Detour",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "DetourCrowd",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "DetourCrowd",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "DetourTileCache",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "DetourTileCache",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "Recast",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Recast",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "RecastDemo",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "RecastDemo",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "Tests",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Tests",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "RecastNavigation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "DebugUtils::@70086530efcf9f3aa15a",
+					"jsonFile" : "target-DebugUtils-Debug-aed0514832c16e4a3df8.json",
+					"name" : "DebugUtils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Detour::@af02d6d6a7de8e2ccf3d",
+					"jsonFile" : "target-Detour-Debug-97158ec5636b255294fc.json",
+					"name" : "Detour",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "DetourCrowd::@d390c63f21d3b25443dd",
+					"jsonFile" : "target-DetourCrowd-Debug-7876a940db3362df150d.json",
+					"name" : "DetourCrowd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "DetourTileCache::@2b762027dffdb35e9e0d",
+					"jsonFile" : "target-DetourTileCache-Debug-cab08778ae22b15084c5.json",
+					"name" : "DetourTileCache",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Recast::@d233a775a36d06e0885c",
+					"jsonFile" : "target-Recast-Debug-006b0c5961218397a8c5.json",
+					"name" : "Recast",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "RecastDemo::@b127d3e209700d9004d6",
+					"jsonFile" : "target-RecastDemo-Debug-4810d8e176f4c21ab53c.json",
+					"name" : "RecastDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Tests::@3e3005ae7443f751ac85",
+					"jsonFile" : "target-Tests-Debug-1f2d419833a35c0eee1d.json",
+					"name" : "Tests",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/internshipTX/recastnavigationLearning/one/recastnavigation/out/build/x64-Debug (默认值)",
+		"source" : "D:/internshipTX/recastnavigationLearning/one/recastnavigation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
